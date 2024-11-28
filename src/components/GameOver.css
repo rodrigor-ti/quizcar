@@ -1,0 +1,42 @@
+#gameover {
+    text-align: center;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+#gameover h2{
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    color: #c72020;
+}
+
+#gameover p {
+    color: #fff;
+    margin-bottom: .7rem;
+}
+
+#gameover img {
+    margin: 2rem;
+    max-width: 400px;
+}
+
+@media(max-width: 620px){
+    #gameover {
+        max-width: 300px;
+        margin-bottom: 3rem;
+    }
+
+    #gameover h2 {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: #c72020;
+    }
+
+    #gameover img {
+        margin: 2rem;
+        max-width: 180px;
+        
+    }
+}
